@@ -24,9 +24,10 @@
             box-shadow: 0 0 30px rgba(255, 0, 255, 0.4);
         }
         .badge { font-weight: bold; padding: 5px 10px; display: inline-block; border-radius: 3px; margin-bottom: 15px; color: #000; }
-        .video-container { max-height: 350px; 
+        .video-container {
             width: 100%;
             aspect-ratio: 9/16;
+            max-height: 350px;
             margin-bottom: 15px;
             background: #111;
             border: 1px solid #444;
@@ -52,7 +53,8 @@
 <body>
     <h1>AI ARSENAL</h1>
     <div class="affiliate-container">
-        <!-- Card 1: UserInterviews -->
+        
+        <!-- Card 1: UserInterviews (Uses your local MP4 file) -->
         <div class="brain-rot-card" style="border-color: #00ff00;">
             <div class="badge" style="background: #00ff00;">💸 ACTIVE PAYOUT</div>
             <h2>User Interviews</h2>
@@ -65,16 +67,18 @@
             <a href="https://www.userinterviews.com/r/xyktllqkd" target="_blank" class="cta-button" style="background: #00ff00;">👉 Claim Sign-Up Bonus</a>
         </div>
 
-        <!-- Card 2: ElevenLabs -->
+        <!-- Card 2: ElevenLabs (Uses a DIFFERENT YouTube embed) -->
         <div class="brain-rot-card" style="border-color: #00d1ff;">
             <div class="badge" style="background: #00d1ff;">🎙️ PRO VOICE ENGINE</div>
             <h2>ElevenLabs AI</h2>
             <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/2Ah_Zn8qaA8?autoplay=1&mute=1&loop=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <!-- REPLACE 'YOUR_ELEVENLABS_VIDEO_ID_HERE' WITH YOUR NEW YOUTUBE ID LATER -->
+                <iframe src="https://www.youtube.com/embed/YOUR_ELEVENLABS_VIDEO_ID_HERE?autoplay=1&mute=1&loop=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             <p>The world's best AI audio. Perfect for faceless channels and uncanny storytelling.</p>
             <a href="https://try.elevenlabs.io/ke0nrfzwanm4" target="_blank" class="cta-button" style="background: #00d1ff;">👉 Try for Free</a>
         </div>
+
     </div>
 </body>
 </html>
